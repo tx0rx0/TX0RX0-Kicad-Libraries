@@ -10,4 +10,4 @@ You are free to use any of these parts in your designs, for any reason. If you m
 I like cool things.
 
 If you have any contributions or questions, feel free to email us at tx0rx0labs@gmail.com, or visit
-our website tx0rx0.com. Happy Hacking
+our website tx0rx0.com. Happy Hacking.
