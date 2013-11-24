@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/21/2013 12:39:15 PM
+EESchema-DOCLIB  Version 2.0  Date: Sun 24 Nov 2013 09:28:49 AM PST
 #
 $CMP 78L05
 D Linear Regulator +5V
@@ -108,8 +108,15 @@ K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
 $ENDCMP
 #
+$CMP CAT24C256
+D 256K I2C EEPROM
+K EEPROM
+F http://www.mouser.com/ds/2/308/CAT24C256-D-105771.pdf
+$ENDCMP
+#
 $CMP CAT24M01
-F ns/lm555.pdf
+D 1M EEPROM
+K EEPROM
 $ENDCMP
 #
 $CMP CONN_40
@@ -204,6 +211,12 @@ D Rotary Encoder
 K Rotary Encoder
 $ENDCMP
 #
+$CMP RT9193
+D 3.3V 300mA LDO Regulator
+K 3.3V LDO Regulator
+F www.richtek.com/download_ds.jsp?s=248
+$ENDCMP
+#
 $CMP SN54HC109_SOP16
 F ns/lm555.pdf
 $ENDCMP
@@ -215,6 +228,7 @@ $ENDCMP
 $CMP TCS3472
 D RGB Color Light-T-Digital Converter with IR Filter
 K Color Sensor
+F http://www.mouser.com/ds/2/588/TCS3472_Datasheet_EN_v1-255426.pdf
 $ENDCMP
 #
 $CMP TL072
