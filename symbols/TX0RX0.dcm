@@ -1,11 +1,130 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 11 May 2013 03:08:14 PM PDT
+EESchema-DOCLIB  Version 2.0  Date: 11/21/2013 12:39:15 PM
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP ATMEGA168A-A
+D ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA168A-A-CUSTOM
+D ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA168A-P
+D ATMEGA168A, PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA168PA-A
+D ATMEGA168PA, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA168PA-P
+D ATMEGA168PA, PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-A
+D ATMEGA328, TQFP32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-P
+D ATMEGA328, PDIP28 Narrow, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-A
+D ATMEGA328P, TQFP32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-P
+D ATMEGA328P, PDIP28 Narrow, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA48A-A
+D ATMEGA48A, TQFP32, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA48A-P
+D ATMEGA48A, PDIP28 Narrow, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA48PA-A
+D ATMEGA48PA, TQFP32, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA48PA-P
+D ATMEGA48PA, PDIP28 Narrow, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA88A-A
+D ATMEGA88A, TQFP32, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA88A-P
+D ATMEGA88A, PDIP28 Narrow, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA88PA-A
+D ATMEGA88PA, TQFP32, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA88PA-P
+D ATMEGA88PA, PDIP28 Narrow, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
 #
 $CMP CAT24M01
 F ns/lm555.pdf
 $ENDCMP
 #
+$CMP CONN_40
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
 $CMP LM2621_VSSOP8
 F ns/lm555.pdf
+$ENDCMP
+#
+$CMP LM2940
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LM358N
@@ -22,6 +141,18 @@ $ENDCMP
 $CMP LM386N
 D Audio Power Amp.
 K Audio Power
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LMC6062
@@ -68,12 +199,22 @@ $CMP NDS351AN
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP ROTARYENC
+D Rotary Encoder
+K Rotary Encoder
+$ENDCMP
+#
 $CMP SN54HC109_SOP16
 F ns/lm555.pdf
 $ENDCMP
 #
 $CMP SN74HC109_SOP16
 F ns/lm555.pdf
+$ENDCMP
+#
+$CMP TCS3472
+D RGB Color Light-T-Digital Converter with IR Filter
+K Color Sensor
 $ENDCMP
 #
 $CMP TL072
@@ -84,6 +225,10 @@ $ENDCMP
 $CMP TL082
 D Dual Op amp (Cmos)
 K ampliop
+$ENDCMP
+#
+$CMP TPS61025DCR
+F ns/lm555.pdf
 $ENDCMP
 #
 $CMP TPS61241
@@ -100,8 +245,44 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP TSOP382
+D 38kHz IR Receiver
+K IR Receiver
+$ENDCMP
+#
+$CMP TSOP85238TR
+D 38kHz IR Receiver
+K IR Receiver
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP TX0RX0_AVRISP
+D Arduino ICSP Connector
+K ICSP
+$ENDCMP
+#
+$CMP TX0RX0_MCP4921_8
+D 12 Bit SPI DAC
+K DAC
+$ENDCMP
+#
+$CMP TX0RX0_MICROSD_SOCKET
+D microSD Card Socket
+K microSD,socket
+F http://www.mouser.com/Search/ProductDetail.aspx?R=DM3CS-SFvirtualkey99990000virtualkey798-DM3CSSF
+$ENDCMP
+#
 $CMP TXB0104
 F ns/lm555.pdf
+$ENDCMP
+#
+$CMP TXB0108
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP ZIF40_EPDPANEL
+D 40 Pin Connector
+K CONN
 $ENDCMP
 #
 #End Doc Library
